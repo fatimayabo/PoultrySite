@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>responsive sidebar</title>
+	<link rel="stylesheet" type="text/css" href="beautify.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PV1GOfQNHSoD2xbE+QkPxCAF1NEevoEH3S10sibVc0QVnN" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header>
+		<div class="Right_area">
+			<h3><i class="fa fa-leaf" aria-hidden="true"></i>agro-<span>retail</span></h3>
+		</div>
+		<div class="navigation">
+		<ul>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+					<span class="title">Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+					<span class="title">Profile</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-gift" aria-hidden="true"></i></span>
+					<span class="title">Products</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+					<span class="title">Message</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+					<span class="title">Setting</span>
+				</a>
+			</li><li>
+				<a href="#">
+					<span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+					<span class="title">Help</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="toggle" onclick="toggleMenu()">
+		<span><i class="fa fa-bars" id="btn"></i></span>
+		<span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+
+	</div>
+	<script type="text/javascript">
+		function toggleMenu(){
+			let navigation= document.querySelector('.navigation');
+			let toggle= document.querySelector('.toggle');
+			navigation.classList.toggle('active');
+			toggle.classList.toggle('active');
+		}
+	</script>
+	<section class="services" id="services">
+	<div class="container2">
+		<div class="row">
+	  <div class="col-lg-10">
+				<div class="sec-title">
+					<h2>my services</h2>
+				</div>
+		  </div>
+		</div>
+        
+		<div class="row">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+	<div class="service-box">
+                	<div class="icontitle">
+                		<img src="img/5.jpg">
+                        <div class="title">
+                        <span>01</span>
+                        <h4>Broiler</h4>
+                        </div>
+                </div>
+          <p>Healthy broiler chicken,<br> different kilograms at<br> affordable price.
+                <br>    
+            <a href="#">>BUY</a></p>
+        </div>
+		  </div>
+          
+			
+	  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="service-box">
+       	  <div class="icontitle">
+   		    <img src="img/3.jpg">
+                        <div class="title">
+                        <span>02</span>
+                        <h4>Layers</h4>
+                        </div>
+          </div>
+          <p>Healthy broiler chicken,<br> different kilograms at<br> affordable price.
+            <br> 
+          <a href="#">>>BUY</a></p>
+          </div>
+		  </div>
+        	
+        
+	  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="service-box">
+       	  <div class="icontitle">
+               		  <img src="img/1.jpg">
+                        <div class="title">
+                        <span>03</span>
+                        <h4>Eggs</h4>
+                        </div>
+          </div>
+          <p>Healthy broiler chicken,<br> different kilograms at<br> affordable price.
+            <br> 
+          <a href="#">>>BUY</a></p>
+          </div>
+		  </div>
+       		
+           
+	 	 <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		   <div class="service-box">
+           	 <div class="icontitle">
+               		  <img src="img/6.jpg">
+                        <div class="title">
+                        <span>04</span>
+                        <h4>Fish</h4>
+                        </div>
+             </div>
+             <p>Healthy broiler chicken,<br> different kilograms at<br> affordable price.
+               <br> 
+             <a href="#">>>BUY</a></p>
+             </div>
+		  </div>
+            
+        	
+		
+	  	<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		  <div class="service-box">
+           	<div class="icontitle">
+               		 <img src="img/7.jpg">
+                        <div class="title">
+                        <span>05</span>
+                        <h4>Frozen</h4>
+                        </div>
+            </div>
+            <p>Healthy broiler chicken,<br> different kilograms at<br> affordable price.
+              <br> 
+            <a href="#">>>BUY</a></p>
+            </div>
+		  </div>
+        	
+	
+	  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="service-box">
+       	  <div class="icontitle">
+               		  <img src="img/8.jpg" class="pro-img">
+                        <div class="title">
+                        <span>06</span>
+                        <h4>Chicks</h4>
+                        </div>
+          </div>
+          <p>Healthy broiler chicken, <br>different kilograms at<br> affordable price.
+            <br> 
+          <a href="#">>>BUY</a></p>
+          </div>
+		  </div>
+
+		  <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="service-box">
+       	  <div class="icontitle">
+               		  <img src="img/8.jpg" class="pro-img">
+                        <div class="title">
+                        <span>06</span>
+                        <h4>Chicks</h4>
+                        </div>
+          </div>
+          <p>Healthy broiler chicken, <br>different kilograms at<br> affordable price.
+            <br> 
+          <a href="#">>>BUY</a></p>
+          </div>
+		  </div>
+
+		  	<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+		<div class="service-box">
+       	  <div class="icontitle">
+               		  <img src="img/8.jpg" class="pro-img">
+                        <div class="title">
+                        <span>06</span>
+                        <h4>Chicks</h4>
+                        </div>
+          </div>
+          <p>Healthy broiler chicken, <br>different kilograms at<br> affordable price.
+            <br> 
+          <a href="#">>>BUY</a></p>
+          </div>
+		  </div>
+  </div>
+</div>
+	
+</section>
+
+<footer id="main-footer">
+<p>Copyright &copy; 2020 Fty Yabo</p>
+</footer>
+</body>
+</html>
